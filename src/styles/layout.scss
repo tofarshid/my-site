@@ -1,0 +1,17 @@
+.master-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: pink;
+    padding: 1rem;
+}
+
+.flex-content {
+    flex-grow: 1;
+    background: white;
+}
+
+.scale-header-image {
+    margin: .1rem;
+    max-width: 1.2rem;
+}
