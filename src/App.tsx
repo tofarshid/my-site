@@ -6,7 +6,7 @@ import { Content } from './components/content';
 
 function App() {
     return (
-        <div className="master-container">
+        <div className="master-container m-3 m-lg-4">
             <Header />
             <Content />
         </div>
