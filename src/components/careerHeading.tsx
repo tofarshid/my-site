@@ -1,5 +1,3 @@
-import Bank from '../assets/bank.svg';
-
 type Props = {
     jobTitle: string;
     orgTitle: string;
@@ -26,7 +24,9 @@ export const CareerHeading = ({
                     <i>{orgTitle}</i>
                 </div>
             </div>
-            <h6>{`${fromAndTo} (${duration})`}</h6>
+            <div className="d-flex flex-column flex-md-row">
+                <small>{`${fromAndTo} (${duration})`}</small>
+            </div>
         </div>
     );
 };

@@ -65,8 +65,8 @@ export const Content = () => {
                         <CareerDesc list={revenueNSW} />
 
                         <CareerHeading
-                            jobTitle="Senior Frontend Engineer"
-                            orgTitle="Department of Customer Service NSW, Australia"
+                            jobTitle="Sr Frontend Engineer"
+                            orgTitle="Service NSW"
                             fromAndTo="Nov 2021 - Apr 2022"
                             duration="6 months"
                         />
@@ -89,7 +89,7 @@ export const Content = () => {
                     </p>
                 </div>
                 <div className="col" style={{ marginBottom: '150px' }}>
-                    <small>References available on Request</small>
+                    <small>(References available on Request)</small>
                 </div>
             </div>
         </div>

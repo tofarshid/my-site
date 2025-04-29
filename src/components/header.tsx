@@ -6,7 +6,7 @@ import LinedIn from '../assets/linkedin.svg';
 import Website from '../assets/website.svg';
 
 export const Header = () => (
-    <div className="row" style={{ padding: '16px 0' }}>
+    <div className="row" style={{ padding: '32px 0 16px 0' }}>
         <div className="col-sm-12 col-lg-6">
             <div className="d-flex flex-column">
                 <h1>Farshid Kamal</h1>
