@@ -1,8 +1,14 @@
 import './../styles/layout.scss';
 import { EducationContent } from './educatinContent';
-import { Header } from './header';
 import { SectionHeading } from './sectionHeading';
-
+import { CareerHeading } from './careerHeading';
+import { CareerDesc } from './careerDesc';
+import {
+    deptOfCustomerService,
+    revenueNSW,
+    simpleIdeas,
+    TAFENSW,
+} from './careerList';
 export const Content = () => {
     return (
         <div className="py-3">
@@ -28,7 +34,7 @@ export const Content = () => {
                 </div>
                 <div className="col">
                     <SectionHeading title={'Competencies'} />
-                    <p>
+                    <p className="m-0">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s,
@@ -38,8 +44,46 @@ export const Content = () => {
                         electronic typesetting, remaining essentially unchanged.
                         It was popularised in the 1960s with the release of
                         Letraset sheets containing Lorem Ipsum passages, and
-                        more recently with{' '}
+                        more recently with
                     </p>
+                </div>
+                <div className="col">
+                    <SectionHeading
+                        title={'Career Summary, Contracts and Projects'}
+                    />
+                    <div className="d-flex flex-column">
+                        <CareerHeading
+                            jobTitle="JavaScript Developer"
+                            orgTitle="simpleideas.com.au"
+                            fromAndTo="Jun 2016 - Current"
+                            duration="10+ Yrs"
+                        />
+                        <CareerDesc list={simpleIdeas} />
+
+                        <CareerHeading
+                            jobTitle="Senior Developer"
+                            orgTitle="Revenue NSW, Australia"
+                            fromAndTo="Jul 2022 - Jun 2024"
+                            duration="2.5 Yrs"
+                        />
+                        <CareerDesc list={revenueNSW} />
+
+                        <CareerHeading
+                            jobTitle="Senior Frontend Engineer"
+                            orgTitle="Department of Customer Service NSW, Australia"
+                            fromAndTo="Nov 2021 - Apr 2022"
+                            duration="6 months"
+                        />
+                        <CareerDesc list={deptOfCustomerService} />
+
+                        <CareerHeading
+                            jobTitle="Full Stack Developer"
+                            orgTitle="TAFE NSW, Australia"
+                            fromAndTo="Jun 2019 - Oct 2021"
+                            duration="6 months"
+                        />
+                        <CareerDesc list={TAFENSW} />
+                    </div>
                 </div>
             </div>
         </div>
