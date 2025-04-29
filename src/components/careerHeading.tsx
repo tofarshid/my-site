@@ -6,7 +6,7 @@ type Props = {
     fromAndTo: string;
     duration: string;
 };
-
+import Briefcase from '../assets/briefcase.svg';
 export const CareerHeading = ({
     jobTitle,
     orgTitle,
@@ -16,7 +16,7 @@ export const CareerHeading = ({
     return (
         <div className="d-flex flex-row">
             <div className="me-2">
-                <img src={Bank} className="scale-header-image with-lg" />
+                <img src={Briefcase} className="scale-header-image with-lg" />
             </div>
 
             <div className="flex-fill">
