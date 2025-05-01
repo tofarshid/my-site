@@ -6,13 +6,6 @@ import LinedIn from '../assets/linkedin.svg';
 import Website from '../assets/website.svg';
 
 export const Header = () => {
-    const navigateToExternalUrl = (
-        url: string,
-        shouldOpenNewTab: boolean = true
-    ) =>
-        shouldOpenNewTab
-            ? window.open(url, '_blank')
-            : (window.location.href = url);
     return (
         <div className="row" style={{ padding: '32px 0 16px 0' }}>
             <div className="col-sm-12 col-lg-6">

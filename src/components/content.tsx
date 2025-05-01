@@ -31,7 +31,7 @@ export const Content = () => {
                         development lifecycle of web apps, mentoring and
                         supporting team members.
                     </p>
-                    <p>
+                    <p className="m-0">
                         With a user-focused engineering approach and high
                         commitment to quality, is a proactive and critical
                         thinker, delivering results on time and within budget
@@ -51,7 +51,7 @@ export const Content = () => {
                         Management/ Compliance, Analyses of Client Requirements,
                         Customer Focus/User Experience
                     </p>
-                    <p>
+                    <p className="m-0">
                         HTML, CSS, SASS, XML, JSON, .NET, JavaScript,
                         TypeScript, PowerShell, Node, React/x, Vue/x, Storybook,
                         Angular, Redux, Tailwind, Bootstrap, Draw.io, Sketch,
