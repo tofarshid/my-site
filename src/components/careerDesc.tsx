@@ -11,8 +11,8 @@ export const CareerDesc = ({ list }: prop) => {
 };
 
 const DescList = ({ list }: prop) => {
-    return list.map((item) => (
-        <li>
+    return list.map((item, key) => (
+        <li key={key}>
             <p className="m-0 mb-1">{item}</p>
         </li>
     ));
