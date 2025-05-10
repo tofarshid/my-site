@@ -56,11 +56,6 @@ export const Pg = () => {
                         </Card>
                         <div className="col-sm-12 mb-4">
                             <Heading>The list</Heading>
-                            <ul>
-                                {ListOfFruits.map((item, index) => (
-                                    <li key={`fruit-${index}`}>{item}</li>
-                                ))}
-                            </ul>
                         </div>
 
                         <div className="col-sm-12 mb-4">
