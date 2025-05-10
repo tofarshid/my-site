@@ -5,6 +5,7 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Home } from './pages/home';
 import { Blog } from './pages/blog';
+import { Pg } from './pages/pg';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="blog" element={<Blog />} />
+                <Route path="playground" element={<Pg />} />
             </Routes>
         </BrowserRouter>
     );

@@ -17,26 +17,22 @@ const CodeSnippet = () => {
         <pre>
             <code className="javascript" ref={codeRef}>
                 {`
-export function useWeb3AnalyticsReporter() {
-  const { pathname, search } = useLocation(); //depends on project routes manager 
-  const { provider } = useWeb3React(); //depends on project web3 providers handling
+  // get unique array
+  const uniqueArray = arr => new Set(...arr);
+  
+  // capialize
+  const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+  
+  // largest number
+  const largestNumber = arr => Math.max(...arr);
 
-  //track page-views
-  useEffect(() => {
-    Web3Analytics.trackPageView(pathname, search);
-  }, [pathname, search]);
+  // remove white space
+  const removeWhiteSpaces = str => str.replace(/\s/g, '');
 
-  //track web3 activity
-
-
-
-  12345677890-
-  useEffect(() => {
-    if (provider) {
-      Web3Analytics.walletProvider(provider);
-    }
-  }, [provider]);
-}`}
+  // remove item
+  const uniqueArray = arr => new Set(...arr);
+  
+`}
             </code>
         </pre>
     );
