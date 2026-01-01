@@ -10,6 +10,7 @@ import {
     DeptOfEducation2,
     Equifax,
     KPMG,
+    ohhWhatABookstore,
     Optus,
     revenueNSW,
     simpleIdeas,
@@ -70,13 +71,14 @@ export const Content = () => {
                             duration="9 Yrs"
                         />
                         <CareerDesc list={simpleIdeas} />
+
                         <CareerHeading
-                            jobTitle="JavaScript Developer"
-                            orgTitle="simpleideas.com.au"
-                            fromAndTo="Jun 2016 - Current"
-                            duration="9 Yrs"
+                            jobTitle="Freelance Developer"
+                            orgTitle="Penrith Bookstore"
+                            fromAndTo="Jul 2024 - Dec 2025"
+                            duration="1.5 Yrs"
                         />
-                        <CareerDesc list={simpleIdeas} />
+                        <CareerDesc list={ohhWhatABookstore} />
 
                         <CareerHeading
                             jobTitle="Senior Developer"

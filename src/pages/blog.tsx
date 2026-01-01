@@ -57,6 +57,7 @@ export const Blog = () => {
                                         One Liner JavaScript
                                     </h5>
                                     <p className="card-text"></p>
+                                    {popup}
                                     <CodeSnippet />
                                 </div>
                             </div>
