@@ -19,7 +19,6 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="blog" element={<Blog />} />
                     <Route path="playground" element={<Pg />} />
-
                     <Route path="hooks" element={<ReactHooks />} />
                 </Routes>
             </BrowserRouter>

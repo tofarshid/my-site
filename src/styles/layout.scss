@@ -17,3 +17,24 @@
 .with-lg {
     max-width: 1.4rem;
 }
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: #222;
+    z-index: 1;
+    opacity: .7;
+    margin: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+  .spinner {
+        position: absolute;
+        left: 45%;
+        top: 45%;
+        z-index: 99;
+    }

@@ -70,6 +70,13 @@ export const Content = () => {
                             duration="9 Yrs"
                         />
                         <CareerDesc list={simpleIdeas} />
+                        <CareerHeading
+                            jobTitle="JavaScript Developer"
+                            orgTitle="simpleideas.com.au"
+                            fromAndTo="Jun 2016 - Current"
+                            duration="9 Yrs"
+                        />
+                        <CareerDesc list={simpleIdeas} />
 
                         <CareerHeading
                             jobTitle="Senior Developer"

@@ -29,9 +29,15 @@ const CodeSnippet = () => {
   // remove white space
   const removeWhiteSpaces = str => str.replace(/\s/g, '');
 
-  // remove item
-  const uniqueArray = arr => new Set(...arr);
-  
+  // check if a string is palindrom
+  const isPalindrome = (str) =>
+    str.toLowerCase().replace(/[^a-z0-9]/g, "") ===
+    str
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "")
+      .split("")
+      .reverse()
+      .join("");  
 `}
             </code>
         </pre>
