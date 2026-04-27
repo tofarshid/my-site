@@ -24,6 +24,7 @@ export const Blog = () => {
         email.length === 0 ? setEmailRequired(true) : setEmailRequired(false);
     };
 
+    useEffect(() => setPopup(popup), []);
     const validateEmail = (email: string) => {
         return String(email)
             .toLowerCase()
@@ -57,7 +58,6 @@ export const Blog = () => {
                                         One Liner JavaScript
                                     </h5>
                                     <p className="card-text"></p>
-                                    {popup}
                                     <CodeSnippet />
                                 </div>
                             </div>

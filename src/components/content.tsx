@@ -73,8 +73,8 @@ export const Content = () => {
                         <CareerDesc list={simpleIdeas} />
 
                         <CareerHeading
-                            jobTitle="Freelance Developer"
-                            orgTitle="Penrith Bookstore"
+                            jobTitle="Senior Software Engineer"
+                            orgTitle="Dymocks Bookstore, NSW"
                             fromAndTo="Jul 2024 - Dec 2025"
                             duration="1.5 Yrs"
                         />

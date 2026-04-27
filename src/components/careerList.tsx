@@ -1,5 +1,6 @@
 export const ohhWhatABookstore = [
-    'Succesfully improved store operations including stock management, staff management and marketing campaigns facilatiting fit for purpose innovative tools and technologies to increase sales',
+    'Highly skilled Senior Developer contracted by the NSW Government and other high-profile clients',
+    'Carries out in-depth analysis work, provides accurate estimates for the duration of the project and follows proven processes and procedures, to provide effective software development solutions',
 ];
 export const simpleIdeas = [
     'Founder and sole partner, contracted by the NSW Government and other high-profile clients',
