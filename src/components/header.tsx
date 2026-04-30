@@ -39,7 +39,7 @@ export const Header = () => {
                             className="d-flex flex-row-reverse flex-lg-row text-decoration-none"
                         >
                             <div className="text-black">
-                                tofarshid@gmail.com
+                                faz.kamal.dev@gmail.com
                             </div>
                             <div>
                                 <img
